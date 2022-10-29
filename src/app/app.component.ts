@@ -6,9 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  header: string = 'Recipies'
   
-  onNavigate(value: string) {
-    this.header = value;
-  }
 }
